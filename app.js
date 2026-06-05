@@ -16,7 +16,7 @@ async function loadArticles(){
 document.getElementById('app').innerHTML='<div class="card">جاري تحميل المقالات...</div>';
 
 try{
-const url="https://YOUR_BLOG.blogspot.com/feeds/posts/default?alt=json";
+const url="https://acc.explapp.com/feeds/posts/default?alt=json";
 const res=await fetch(url);
 const data=await res.json();
 
